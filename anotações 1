@@ -1,0 +1,32 @@
+int main()
+{   
+    // declaração de variáveis
+    
+   int tipo;
+   float novo, valor;
+   
+   // entrada de dados
+   
+   printf("Tipo de Investimento 1- Poupança 2- Renda Fixa..: ");
+   scanf("%d", &tipo);
+   printf("Valor do Investimento..: ");
+   scanf("%f", &valor);
+   
+   // verificar o tipo de Investimento
+   
+   if (tipo == 1)
+     {
+      novo = valor + valor * 3/100 ;
+     }
+    else
+     {
+      novo = valor + valor * 4/100 ;
+     }
+     
+     // apresentando o resultado
+     
+    printf("Total com o investimento..: %.2f" , novo);
+    
+    
+   return 0;
+}

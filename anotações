@@ -1,0 +1,10 @@
+int main()
+{   
+    int nr, dobro;
+    printf("Número..:");
+    scanf("%d", &nr);
+    dobro = nr * 2;
+    printf("O dobro é..: %d ", dobro);
+    
+    return 0;
+}

@@ -1,0 +1,28 @@
+Validação de senha simples em C:
+
+int main()
+{   
+    // declaração de variáveis
+    
+   int senha;
+   
+   // entrada de dados
+   
+   printf("Senha..: ");
+   scanf("%d", &senha);
+   
+   // verificar o tipo de Investimento
+   
+   if (senha == 4531)
+     {
+      printf("Acesso liberado! ");
+     }
+    else
+     {
+      printf("Acesso negado! ");
+     }
+   
+    
+    
+   return 0;
+}

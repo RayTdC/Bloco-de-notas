@@ -1,0 +1,20 @@
+void teste()
+{ 
+    int x = 34;
+    printf("\nDentro de Teste - Mudei..: %d", x); 
+    
+}
+
+int main() 
+{   // declaração de variáeis
+    int x = 10;
+    printf("Dentro main -Valor de x..:  %d ", x);
+    teste();
+    printf("\n Dentro main - Valor de x..:  %d ", x);
+
+   
+     
+    
+    
+    return 0;
+}

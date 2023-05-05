@@ -2,16 +2,16 @@ Validação de senha simples em C:
 
 int main()
 {   
-    // declaração de variáveis
+    // Declaração de variáveis
     
    int senha;
    
-   // entrada de dados
+   // Entrada de dados
    
    printf("Senha..: ");
    scanf("%d", &senha);
    
-   // verificar o tipo de Investimento
+   // Processamento e saída
    
    if (senha == 4531)
      {

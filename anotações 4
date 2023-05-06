@@ -1,0 +1,41 @@
+int main()
+{   
+    // Declaração de variáveis
+    
+   float salario, grat, desconto, salReceber;
+
+   // Entrada de dados
+   
+   printf("Salário Bruto..: ");
+   scanf("%f", &salario);
+   
+   // Processamento 
+   
+   if (salario <= 350.00)
+     {
+      grat = 100;
+     }
+    else if (salario <= 600.00)
+     {
+      grat = 75;
+     }
+    else if (salario <= 900.00){
+        grat = 50;
+    }
+    else {
+        grat = 35;
+    }
+    
+    desconto = salario * 7 /100;
+    salReceber = salario + grat - desconto;
+    
+   // Saída 
+   
+    printf("\n---------------------------------");
+    printf("\nValor da Gratificação..: %.2f", grat);
+    printf("\nValor do desconto..: %.2f", desconto);
+    printf("\nSalario a Receber..: %.2f ", salReceber);
+    printf("\n---------------------------------");
+    
+   return 0;
+}
